@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.one {
+    width:100%;
+    display: block;
+    margin-bottom: 0;
+    visibility: hidden;
+}
+
+.two {
+    display: block;
+}
+.two button {
+    margin-top: 0;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #2a9d8f;
+}
+.one h1 {
+    width: 100%;
+    font-size: 100px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#cdb4db,#2a9d8f,#606c38);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.three {
+    width: 100%;
+    visibility: hidden;
+}
+
+
